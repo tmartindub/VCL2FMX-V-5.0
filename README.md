@@ -75,4 +75,5 @@ Copyright (c) 2026 Tommy Martin.
 ## Author
 
 Tommy Martin
+- Supports Delphi 12 and later. The current project is being built on Delphi 13.1.
 
