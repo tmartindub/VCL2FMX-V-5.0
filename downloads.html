@@ -26,6 +26,11 @@
   <div class="gtranslate_wrapper notranslate" translate="no"></div>
   <script>window.gtranslateSettings = {"default_language":"en","native_language_names":true,"detect_browser_language":true,"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"right"}</script>
   <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+  <script>
+    window.addEventListener('load', function () {
+      document.querySelector('.gtranslate_wrapper').dispatchEvent(new Event('focusin', { bubbles: true }));
+    });
+  </script>
 
   <a class="skip-link" href="#main">Skip to main content</a>
   <header class="site-header">
